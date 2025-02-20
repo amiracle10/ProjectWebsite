@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Contact Us
+        </title>
+        <link rel="stylesheet" href="mspp.css">
+        <meta charset="utf-8">
+        <meta name="description" content="contact main street pet palor">
+    </head>
+    <body>
+        <header>
+            <table>
+                <tr>
+                    <th>
+                        <img src="phoneicon.png" alt="phone" width="35" height="35">
+                        <img src="facebookicon.png" alt="facebook" width="35" height="35">
+                        <img src="instagramicon.png" alt="instagram" width="35" height="35">
+                        
+                    </th>
+                </tr>  
+            </table>
+            <div class="logo">
+                <a href="index.html"><img src="logo.png" alt="Main Street Pet Palor Logo" width="250" height="175"></a>
+            </div>
+        
+             
+            
+        </header>
+        <nav>
+            
+            <div class="topnav" id="myTopnav" class="navcontainer">
+                <a href="index.html" class="active">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Services 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="grooming.html">Grooming</a>
+                      <a href="daycare.html">Daycare/Boarding</a>
+                      <a href="catservices.html">Cat Services</a>
+                    </div>
+                  </div> 
+                <a href="gallery.html">Gallery</a>
+                <a href="contactus.html">Contact Us</a>
+                
+                <a href="about.html">About</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+
+
+
+              <script>
+                function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                    x.className += " responsive";
+                  } else {
+                    x.className = "topnav";
+                  }
+                }
+                </script>
+        </nav>
+        <main>
+            <div class="map">
+                <div class="column">
+            <h3>Main Street Pet Palor</h3>
+            <p>812-217-3481<br>966 Aigner Dr, Boonville, IN 47610</p>
+            <h3>Hours</h3>
+            <ul>
+                <li>Sunday: Closed</li>
+                <li>Monday: 7am-5pm</li>
+                <li>Tuesday: 7am-5pm</li>
+                <li>Wednesday: 7am-5pm</li>
+                <li>Thursday: 7am-5pm</li>
+                <li>Friday: 7am-5pm</li>
+                <li>Saturday: 8am-2pm</li>
+            </ul>
+            
+                </div>
+                <div class="column">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7226.528655989573!2d-87.31104010222913!3d38.049476108662695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886e3692f62c4bb3%3A0x3dd182e1f837c29b!2sMain%20Street%20Pet%20Parlor%20LLC!5e0!3m2!1sen!2sus!4v1696205549039!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        
+            </div>
+            <div class="column">
+                <form method="get" action="thankyou.html">
+                    <label for="myFName">First Name:</label>
+                        <input type="text" id="myFName" name="myFName" required>
+                    <label for="myLName">Last Name:</label>
+                        <input type="text" id="myLName" name="myLName" required>
+                    
+                    <label for="myEmail">E-Mail:</label>
+                        <input type="email" id="myEmail" name="myEmail" required>
+                    <label for="myPhone">Phone:</label>
+                        <input type="tel" id="myPhone" name="myPhone" required>
+                    <label for="myComments">Comments:</label>
+                        <textarea name="myComments" id="myComments" rows="2" cols="20" required></textarea>
+                        <input type="submit" id="mysubmit" value="Submit">
+                </form>
+            </div>
+
+
+        </main>
+
+        <footer>
+
+
+            <div class="footerrow">
+                <div class="footercolumn">
+                    <h3>Hours:</h3>
+                    <ul>
+                        <li>Monday: 7am-5pm</li>
+                        <li>Tuesday: 7am-5pm</li>
+                        <li>Wednesday: 7am-5pm</li>
+                        <li>Thursday: 7am-5pm</li>
+                        <li>Friday: 7am-5pm</li>
+                        <li>Saturday: 8am-2pm</li>
+                    </ul>
+                </div>
+                <div class="footercolumn">
+                    <img src="logo.png" alt="Main Street Pet Palor Logo" width="250" height="175">
+                </div>
+                <div class="footercolumn">
+                    <h3>Address:</h3>
+                    <p>966 Aigner Drive Boonville,IN 47601<br>
+                        812-217-3481</p>
+                </div>
+            </div>
+            
+        </footer>
+    </body>
+
+
+
+
+</html>
